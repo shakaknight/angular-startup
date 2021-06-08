@@ -190,3 +190,31 @@ input[type="checkbox"] {
   background-color: #066;
   color: #ffffff !important;
 }
+@media screen and (max-width: 1440px) {
+  img {
+    display: none !important;
+  }
+  input.input-class,
+  select {
+    width: 95% !important;
+  }
+  .second-row {
+    flex-direction: column;
+  }
+  .third-row {
+    flex-direction: column;
+  }
+  .stage-para {
+    align-items: center;
+    margin: 0 0% 6%;
+  }
+  div.radio-container {
+    display: flex;
+    border-radius: 20px;
+    /* width: 25%; */
+    margin: auto;
+  }
+  .continue {
+    margin-left: 25%;
+  }
+}

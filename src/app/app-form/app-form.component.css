@@ -44,6 +44,18 @@ span.lowerlogo {
 a {
   color: #fff;
 }
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 4px 47%;
+}
+.active {
+  background-color: #fff;
+  transition: 0.2s;
+}
 @media screen and (max-width: 1440px) {
   .bg-div {
     height: 100%;
@@ -53,6 +65,10 @@ a {
     display: flex;
     border-radius: 10px;
     box-shadow: 0px;
+    /* height: 145vh;
+    width: auto;
+    margin: 2% 19%;
+    flex-direction: column; */
   }
   img {
     display: none !important;
@@ -70,5 +86,11 @@ a {
   .material-icons {
     transform: rotate(-90deg);
     margin: 1em;
+  }
+  .dot-div {
+    display: flex;
+  }
+  .dot-inner {
+    margin: 0 1em;
   }
 }

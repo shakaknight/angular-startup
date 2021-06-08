@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppFormComponent implements OnInit {
 
+public activeinfo:boolean = true; 
+
   constructor() { }
 
   ngOnInit(): void {

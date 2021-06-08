@@ -2,10 +2,18 @@
     <img src="../../assets/side_cut_2.svg">
      
     <div class="side-menu">
-        <div class="upper-logo">
+        <div class="upper-logo" (click)="activeinfo = !activeinfo">
             <a routerLink="/first"><span  class="material-icons side-icon">arrow_circle_up</span></a>
         </div>
-        <div class="lower-logo">
+        <div class="dot-div">
+            <div class="dot-inner">
+            <span class="dot" [ngClass]="{'active': activeinfo}"></span>
+            </div>
+            <div class="dot-inner">
+            <span class="dot" [ngClass]="{'active': !activeinfo}"></span>
+            </div>
+        </div>
+        <div class="lower-logo" (click)="activeinfo = !activeinfo">
             <a routerLink="/second"><span class="material-icons side-icon">arrow_circle_down</span></a>
         </div>
     </div>
