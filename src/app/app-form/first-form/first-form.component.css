@@ -168,8 +168,6 @@ input[type="checkbox"] {
   width: 15px; /*Desired width*/
   height: 15px; /*Desired height*/
   cursor: pointer;
-  /* -webkit-appearance: none; */
-  /* appearance: none; */
 }
 .continue {
   width: 180px;
@@ -211,7 +209,6 @@ input[type="checkbox"] {
   div.radio-container {
     display: flex;
     border-radius: 20px;
-    /* width: 25%; */
     margin: auto;
   }
   .continue {
