@@ -1,0 +1,188 @@
+.first-from-window {
+  padding: 20px 10px 30px;
+}
+.first-form {
+  height: 100%;
+}
+img {
+  position: absolute;
+  width: 250px;
+  right: 30em;
+}
+.heading-first {
+  color: #066;
+  margin-top: 24px;
+  font-size: 40px;
+  font-weight: 600;
+  transition-duration: 1s;
+  animation: head-appear 1s forwards;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: normal;
+}
+.form-body {
+  width: 100%;
+  margin-top: 12%;
+}
+.form-field {
+  margin-top: 60px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.startupName {
+  width: 98% !important;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid;
+  outline-offset: 0px;
+  outline: none;
+  font-size: 20px;
+}
+.label-name {
+  font-size: 23px !important;
+  margin-top: 20px !important;
+}
+mat-form-field {
+  width: 100%;
+}
+.second-row {
+  display: flex;
+  justify-content: space-between;
+}
+.industry {
+  margin: 0% 2% 0% 0%;
+}
+.industry,
+.sector {
+  width: 100%;
+  margin: 4% 2% 0% 0%;
+}
+select {
+  outline-offset: 0px;
+  outline: none;
+  border: none;
+  height: 80%;
+  width: 100%;
+  border-bottom: 2px solid;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+.third-row {
+  margin-top: 6%;
+}
+.stage {
+  margin-top: 2%;
+}
+.stagevalue {
+  line-height: 18px;
+  padding: 0 0.8em;
+}
+.third-row {
+  display: flex;
+}
+.third-first,
+.third-second {
+  width: 100%;
+}
+
+.textarea-third {
+  height: 17.5em;
+  width: 95%;
+  border: 2px solid;
+}
+.counter {
+  margin-left: 87%;
+}
+div.radio-container {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  border: 2px solid #066;
+  display: flex;
+  border-radius: 20px;
+  width: 50%;
+  margin: auto;
+}
+
+div.radio-container input[type="radio"] {
+  opacity: 0;
+  display: none;
+  margin: 0;
+  outline: none;
+}
+
+div.radio-container input[type="radio"]:checked + label {
+  background-color: #066;
+  color: white;
+  animation-name: radio-active;
+  animation-duration: 0.2s;
+}
+
+div.radio-container label {
+  padding: 0.8em;
+  cursor: pointer;
+  background: none;
+  display: inline-block;
+  outline: none;
+  letter-spacing: 0.1em;
+  background-color: white;
+  color: black;
+  transition: all ease-in-out 0.1s;
+  border-radius: 20px;
+}
+.interest-logo {
+  display: flex;
+  width: 100%;
+  margin-top: 4%;
+}
+.interest {
+  width: 100%;
+}
+.area {
+  width: 10em;
+  margin-right: 5em;
+  border: 1px solid rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.7);
+}
+#dropZone {
+  /* width: auto; */
+  border: 2px dashed rgb(0, 0, 0);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 8px 5px;
+  text-align: center;
+  font: 60pt bold arial;
+  color: #bbb;
+}
+.interestCheck {
+  display: flex;
+  font-size: 20px;
+  /* margin-left: -28%; */
+  padding-bottom: 6px;
+}
+.checkbox {
+  margin-left: 10px;
+}
+input[type="checkbox"] {
+  width: 15px; /*Desired width*/
+  height: 15px; /*Desired height*/
+  cursor: pointer;
+  /* -webkit-appearance: none; */
+  /* appearance: none; */
+}
+.continue {
+  width: 180px;
+  border-radius: 30px;
+  height: 60px;
+  background-color: #066;
+  color: #fff;
+  padding: 0px 5px;
+  font-size: 18px;
+  margin-left: 78%;
+  cursor: pointer;
+  border: none;
+  font-size: 27px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}

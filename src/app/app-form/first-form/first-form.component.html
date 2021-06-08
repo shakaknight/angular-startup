@@ -1,0 +1,102 @@
+
+                            <div class="first-from-window">
+                                <div class="first-form">
+                                    <div>
+                                        <img class="aii-logo" src="../../../assets/Incubator.svg">
+                                    </div>
+                                    <div>
+                                        <h1 class="heading-first">About Startup</h1>
+                                    </div>
+                                </div>
+                                <div class="form-body">
+                                    <form class="form-field">
+                                                                    
+                                        <label class="label-name">STARTUP NAME<span class="required">*</span></label>
+                                         <input class="startupName" [ngStyle]="{'width':'100%'}" mat-input placeholder="" value="">
+                                                                
+                                            <div class="second-row">
+                                                <div class="industry">
+                                                    <label class="label-name">INDUSTRY<span class="required">*</span></label>
+                                                    <select name="industry" id="cars">
+                                                        <option value=""></option>
+                                                        <option value="">AI</option>
+                                                        <option value="">Chemicals</option>
+                                                        <option value="">Aeronautics</option>
+                                                    </select>
+                                                </div>
+                                                <div class="sector">
+                                                    <label class="label-name">SECTOR<span class="required">*</span></label>
+                                                    <select name="sector">
+                                                        <option value=""></option>
+                                                        <option value="">AI</option>
+                                                        <option value="">Chemicals</option>
+                                                        <option value="">Aeronautics</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                            
+                                            <div class="third-row">
+                                                <div class="third-first">
+                                                    <label class="label-name">STAGE<span class="required">*</span></label>
+                                                    <p>
+                                                        <mat-button-toggle-group class="stage" name="fontStyle" aria-label="Font Style">
+                                                            <mat-button-toggle class="stagevalue" value="">Ideation</mat-button-toggle>
+                                                            <mat-button-toggle class="stagevalue" value="">Validation</mat-button-toggle>
+                                                            <mat-button-toggle class="stagevalue" value="">Early Traction</mat-button-toggle>
+                                                            <mat-button-toggle class="stagevalue" value="">Scaling</mat-button-toggle>
+                                                        </mat-button-toggle-group>
+                                                    </p>
+                                                                            <div class="radio-container">
+                                                                                <input checked="checked" type="radio" name="fund" value="1" id="bootstrapped" />
+                                                                                <label for="bootstrapped">BOOTSTRAPED</label>
+                                                                                <input type="radio" name="fund" value="0" id="funded" />
+                                                                                <label for="funded">FUNDED</label>
+                                                                            </div>
+                                                                            <div class="interest-logo">
+                                                                                <div class="interest">
+                                                                                    <label class="label-name">INTERESTS <span class="required">*</span></label>
+                                                                                    <div class="interestCheck">
+                                                                                        <input type="checkbox" id="select-all" />
+                                                                                        <label for="car" class="checkbox">All</label>
+                                                                                    </div>
+                                                                                    <div class="interestCheck">
+                                                                                        <input type="checkbox" id="bike" name="vehicle" value="bike" />
+                                                                                        <label for="bike" class="checkbox">Incubation</label>
+                                                                                    </div>
+                                                                                    <div class="interestCheck">
+                                                                                        <input type="checkbox" id="car" name="vehicle" value="car" />
+                                                                                        <label for="car" class="checkbox">Acceleration</label>
+                                                                                    </div>
+                                                                                    <div class="interestCheck">
+                                                                                        <input type="checkbox" id="car" name="vehicle" value="car" />
+                                                                                        <label for="car" class="checkbox">Investment</label>
+                                                                                    </div>
+                                                                                    <div class="interestCheck">
+                                                                                        <input type="checkbox" id="car" name="vehicle" value="car" />
+                                                                                        <label for="car" class="checkbox">Mentoring</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <label class="label-name">LOGO <span>:</span></label>
+                                                                                    <div class="area">
+                                                                                        <div id="dropZone">+</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                </div>
+                                                <div class="third-second">
+                                                    
+                                                        <h3 class="label-name"> ABOUT STARTUP <span class="required">*</span></h3>
+                                                        <textarea class="textarea-third" id="word" maxlength="1200"></textarea>
+                                                        <div class="counter">
+                                                            <h3><span id="count">0</span></h3>
+                                                        </div>
+
+                                                </div>
+                                            </div>
+                                        <div class="footer">
+                                            <a routerLink="/second"> <button class="continue">Continue <span class="material-icons" style="vertical-align: middle;"> keyboard_arrow_right </span></button></a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
